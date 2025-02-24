@@ -17,7 +17,6 @@ body {
     position: relative;
     overflow-y: auto;
     text-decoration: #DDA8F6;
-    /* Removed text-align: center; */
 }
 
 p{
@@ -28,11 +27,11 @@ p{
     text-align: left;
     margin: 20px 0 20px 0;
     padding-left: 20px;
+    padding-bottom: 50px;
     margin-left: 0; 
     text-decoration: #DDA8F6;
 }
 
-/* Ensure paragraphs are positioned at the very left of the page */
 p {
     margin-left: 0; 
 }
@@ -97,7 +96,7 @@ nav a:hover {
 /* Image Frame */
 .image-container {
     position: absolute;
-
+    top: 10%; 
     border-radius: 50%;
     overflow: hidden;
 }
@@ -105,10 +104,9 @@ nav a:hover {
 
 img {
   float: right;
-  width: 30%;
-  height: 40%;
+
   padding-right: 250px;
-  padding-bottom: 500px;
+
 }
     
 
