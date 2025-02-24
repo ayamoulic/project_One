@@ -26,7 +26,6 @@ p{
     max-width: 600px;
     text-align: left;
     margin: 20px 0 20px 0;
-    padding-left: 20px;
     padding-bottom: 50px;
     margin-left: 0; 
     text-decoration: #DDA8F6;
@@ -86,19 +85,22 @@ nav a {
     text-decoration: none;
     font-family: 'Metal Gothic Demo', sans-serif;
     font-size: 20px;
-    margin-right: 15px;
+    margin-right: 50px;
     transition: 0.3s;
 }
 
-nav a:hover {
-    color: #ff4081;
+nav a:first-child {
+    margin-right: 300px; /* Larger space for "AYA" */
+    padding-left: 80px;
+    font-weight: 100;
 }
+
 .content {
     display: flex;
     align-items: center;  /* Align items vertically */
     justify-content: space-between; /* Space between text and image */
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0 5%;
 }
 .text {
@@ -117,7 +119,7 @@ nav a:hover {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    padding-right: 300px;
+    padding-right: 350px;
 }
     
 
