@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Starstruck';
-    src: url('../font/starstruck.ttf') format('truetype');
+    src: url('../font/Starstruck.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Metal Gothic Demo';
@@ -83,7 +83,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-family: 'Starstruck', sans-serif;
+    font-family: 'Metal Gothic Demo', sans-serif;
     font-size: 20px;
     margin-right: 50px;
     transition: 0.3s;
