@@ -57,6 +57,15 @@ h1 {
     padding-top: 50px;
     padding-bottom: 40px;
 }
+.archive {
+    font-size: 20px !important;
+    font-family: 'Old Standard TT', serif;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    margin: 0 25px;
+    color: #DDA8F6;
+}
 h2 {
     font-family: 'Starstruck', sans-serif;
     font-size: 64px;
@@ -78,6 +87,9 @@ h3 {
     color: #fff;
     padding: 10px 0;
 }
+h5 {
+    font-size: 20px;
+}
 
 
 .artist-container {
@@ -94,7 +106,8 @@ h3 {
 .artist img {
     width: 100%;
     height: auto;
-
+    border: 5px solid pink; 
+    border-radius: 5px;
 }
 
 p {
@@ -105,6 +118,27 @@ p {
     text-align: left;
     margin: 20px 0;
     padding-bottom: 50px;
-    margin-left: 0;
+    padding-top: 50px
     text-decoration: #DDA8F6;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    font-family: 'Old Standard TT', serif;
+    text-align: center; /* Center content inside footer */
+}
+
+.social-links a {
+    text-transform: uppercase;
+    color: #DDA8F6; /* Soft pink for aesthetic touch */
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    padding: 5px 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

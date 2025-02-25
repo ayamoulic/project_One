@@ -84,7 +84,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #DDA8F6;
     text-decoration: none;
     font-family: 'Metal Gothic Demo', sans-serif;
     font-size: 22px;
@@ -130,16 +130,20 @@ nav a:first-child {
 footer {
     background-color: #222;
     color: white;
-    padding: 20px 0;
+    padding: 5px 0;
     font-family: 'Old Standard TT', serif;
-    text-align: center; /* Center content inside footer */
+    text-align: center; 
+    padding-bottom: 10px;
 }
 
-footer a {
-    color: #ff4081;
+.social-links a {
+    text-transform: uppercase;
+    color: #DDA8F6; /* Soft pink for aesthetic touch */
     text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    padding: 5px 20px;
 }
-
 footer a:hover {
     text-decoration: underline;
 }

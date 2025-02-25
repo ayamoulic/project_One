@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Starstruck';
+    src: url('../font/Starstruck.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Metal Gothic Demo';
+    src: url('../font/MetalGothic-DemoVersion-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Old Standard TT', serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #DDA8F6; /* Pink background */
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Metal Gothic Demo', sans-serif;
+    font-size: 22px;
+    margin-right: 55px;
+    transition: 0.3s;
+    line-height: 1.5;
+}
+
+nav a:first-child {
+    margin-right: 72%; 
+    padding-left: 80px;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: 'Starstruck', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Metal Gothic Demo', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    padding-bottom: 65px;
+    padding-top: 100px;
+}
+
+.mix {
+    font-size: 14px !important;
+    font-family: 'Old Standard TT', serif;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    margin: 0 25px;
+    color: #DDA8F6;
+}
+
+ol, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; /* Space between each list item */
+}
+
+li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+img.songs {
+    width: 250px;
+    height: 250px; /* Consistent size for both images */
+    border: 2px solid #DDA8F6;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    margin-top: 15px;
+}
+
+img.fits {
+    width: 250px;
+    height: 250px; /* Consistent size for both images */
+    border: 2px solid #DDA8F6;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    margin-top: 15px;
+    margin-bottom:50px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.preview {
+    margin-top: 10px; /* Adds a small space above the player */
+    width: 250px; /* Matches the width of the image */
+    border: none; /* Removes the border around the iframe */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    transition: transform 0.3s ease;
+    object-fit: cover; /* Ensures the content inside fits nicely */
+}
+
+/* Optional hover effect for both image and preview */
+.preview:hover,
+img.songs:hover,
+img.fits:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: 'Metal Gothic Demo', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #DDA8F6;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 5px 15px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    color: #ffccde;
+}
