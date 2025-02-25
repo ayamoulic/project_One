@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
     font-family: 'Metal Gothic Demo', sans-serif;
     font-size: 22px;
-    margin-right: 45px;
+    margin-right: 55px;
     transition: 0.3s;
     line-height: 1.5; /
 }
@@ -54,6 +54,8 @@ h1 {
     text-align: center;
     font-weight: 100;
     color: #fff;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 h2 {
     font-family: 'Starstruck', sans-serif;
@@ -74,6 +76,7 @@ h3 {
     font-weight: 100;
     font-size: 50px;
     color: #fff;
+    padding: 10px 0;
 }
 
 
