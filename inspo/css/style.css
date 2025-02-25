@@ -21,6 +21,11 @@ body {
 }
 
 nav {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+    
     background-color: #DDA8F6; /* Pink background */
     padding: 10px 0;
     text-align: left;
@@ -34,6 +39,7 @@ nav a {
     font-size: 22px;
     margin-right: 45px;
     transition: 0.3s;
+    
 }
 
 nav a:first-child {
@@ -70,7 +76,7 @@ h2 {
 .artist img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+
 }
 
 p {
