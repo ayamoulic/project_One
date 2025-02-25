@@ -8,6 +8,9 @@
     font-weight: normal;
     font-style: normal;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #000;
     color: #fff;
@@ -17,6 +20,7 @@ body {
     position: relative;
     overflow-y: auto;
     text-decoration: #DDA8F6;
+    overflow-x: hidden;
 }
 
 p{
@@ -117,10 +121,10 @@ nav a:first-child {
 }
 
 .image img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 50%;
-    padding-right: 350px;
+    padding-right: 100px;
 }
     
 
