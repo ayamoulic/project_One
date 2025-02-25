@@ -95,7 +95,6 @@ nav a {
 nav a:first-child {
     margin-right: 450px; /* Larger space for "AYA" */
     padding-left: 80px;
-    font-weight: 100;
 }
 
 .content {
