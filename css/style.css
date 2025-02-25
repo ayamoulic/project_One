@@ -31,7 +31,6 @@ p{
     text-align: left;
     margin: 20px 0 20px 0;
     padding-bottom: 50px;
-    margin-left: 0; 
     text-decoration: #DDA8F6;
 }
 
@@ -88,13 +87,13 @@ nav a {
     color: white;
     text-decoration: none;
     font-family: 'Metal Gothic Demo', sans-serif;
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 22px;
+    margin-right: 45px;
     transition: 0.3s;
 }
 
 nav a:first-child {
-    margin-right: 300px; /* Larger space for "AYA" */
+    margin-right: 450px; /* Larger space for "AYA" */
     padding-left: 80px;
     font-weight: 100;
 }
@@ -132,7 +131,7 @@ nav a:first-child {
 footer {
     background-color: #222;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     font-family: 'Old Standard TT', serif;
     text-align: center; /* Center content inside footer */
 }
