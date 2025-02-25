@@ -54,7 +54,7 @@ h1 {
     text-align: center;
     font-weight: 100;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 .archive {
@@ -108,6 +108,9 @@ h5 {
     height: auto;
     border: 5px solid pink; 
     border-radius: 5px;
+}
+.artist img:hover {
+    transform: scale(1.05); /* Scales the image to 105% of its original size */
 }
 
 p {
