@@ -2,9 +2,48 @@
     font-family: 'Starstruck';
     src: url('../font/Starstruck.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'Metal Gothic Demo';
     src: url('../font/MetalGothic-DemoVersion-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    font-family: 'Old Standard TT', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Starstruck', sans-serif; /* Applying 'Starstruck' font to h1 */
+    font-size: 64px;
+    margin-top: 50px;
+    font-weight: 100;
+    color: #fff;
+}
+
+nav {
+    background-color: #000; /* Black background for navigation */
+    padding: 10px 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Metal Gothic Demo', sans-serif; /* Applying 'Metal Gothic Demo' font to navigation links */
+    font-size: 22px;
+    margin-right: 45px;
+    transition: 0.3s;
+}
+
+nav a:first-child {
+    margin-right: 450px; /* Larger space for the first link */
+    padding-left: 80px;
+    font-weight: 100;
 }
