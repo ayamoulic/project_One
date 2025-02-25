@@ -11,23 +11,17 @@
 }
 
 body {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color */
+    background-color: #000;
+    color: #fff;
     font-family: 'Old Standard TT', serif;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    font-family: 'Starstruck', sans-serif; /* Applying 'Starstruck' font to h1 */
-    font-size: 64px;
-    margin-top: 50px;
-    font-weight: 100;
-    color: #fff;
+    position: relative;
+    overflow-y: auto;
 }
 
 nav {
-    background-color: #000; /* Black background for navigation */
+    background-color: #DDA8F6; /* Pink background */
     padding: 10px 0;
     text-align: left;
     margin-left: 40px;
@@ -36,14 +30,57 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-family: 'Metal Gothic Demo', sans-serif; /* Applying 'Metal Gothic Demo' font to navigation links */
+    font-family: 'Metal Gothic Demo', sans-serif;
     font-size: 22px;
     margin-right: 45px;
     transition: 0.3s;
 }
 
 nav a:first-child {
-    margin-right: 450px; /* Larger space for the first link */
+    margin-right: 450px; /* Larger space for "AYA" */
     padding-left: 80px;
     font-weight: 100;
+}
+
+h1 {
+    font-family: 'Starstruck', sans-serif;
+    font-size: 64px;
+    margin-top: 50px;
+    font-weight: 100;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Starstruck', sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.artist-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.artist {
+    text-align: center;
+    max-width: 300px;
+}
+
+.artist img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 600px;
+    text-align: left;
+    margin: 20px 0;
+    padding-bottom: 50px;
+    margin-left: 0;
+    text-decoration: #DDA8F6;
 }
