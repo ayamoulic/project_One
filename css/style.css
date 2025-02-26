@@ -187,22 +187,31 @@ nav a:first-child {
 }
 
 footer {
-    background-color: #222;
-    color: white;
-    padding: 5px 0;
+    background-color:  #DDA8F6;
+
     font-family: 'Old Standard TT', serif;
-    text-align: center; 
-    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: 'Metal Gothic Demo', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 .social-links a {
-    text-transform: uppercase;
-    color: #DDA8F6;
+    color: #000;
     text-decoration: none;
     font-size: 20px;
     transition: color 0.3s ease;
-    padding: 5px 20px;
+    padding: 5px 15px;
 }
-footer a:hover {
-    text-decoration: underline;
+
+.social-links a:hover {
+    color: darkmagenta;
 }
