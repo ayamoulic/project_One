@@ -55,7 +55,7 @@ body::before {
 
 h1 {
     font-family: 'Starstruck', sans-serif;
-    font-size: 64px;
+    font-size: 70px;
     margin-top: 50px;
     font-weight: 100;
     color: #fff;
@@ -93,26 +93,40 @@ nav a {
 }
 
 nav a:first-child {
-    margin-right: 450px; /* Larger space for "AYA" */
+    margin-right: 450px; 
     padding-left: 80px;
 }
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
 
+.title h1 {
+    margin: 0;
+    font-size: 70px;
+}
+
+.title img {
+    width: 250px;
+    height: 250px;
+}
 .content {
     display: flex;
-    align-items: center;  /* Align items vertically */
-    justify-content: space-between; /* Space between text and image */
+    align-items: center; 
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     padding: 0 5%;
-    padding-bottom: 50px;;
+    padding-bottom: 50px;
 }
 .text {
-    flex: 1; /* Takes remaining space */
+    flex: 1; 
     padding-left: 20px;
     text-align: left;
 }
 .image {
-    flex: 0 0 45%; /* Keeps image in purple area */
+    flex: 0 0 45%;
     display: flex;
     justify-content: center;
     align-items: center;
