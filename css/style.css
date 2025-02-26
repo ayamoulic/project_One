@@ -46,7 +46,7 @@ body::before {
     top: 0;
     right: 0;
     width: 55%;
-    height: 58%;
+    height: 55%;
     background: #DDA8F6;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -60,7 +60,19 @@ h1 {
     font-weight: 100;
     color: #fff;
 }
-h2, h3, h4, h5 {
+
+h2 {
+    font-family: 'Metal Gothic Demo', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 75px;
+}
+
+h3, h4, h5 {
     font-family: 'Metal Gothic Demo', sans-serif;
     font-weight: 100;
     color: #fff;
@@ -141,6 +153,15 @@ nav a:first-child {
     transform: scale(1.05); 
 }
 
+.wrld {
+    font-size: 14px !important;
+    font-family: 'Old Standard TT', serif;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    margin: 0 25px;
+    color: #DDA8F6;
+}
 .second {
     display: flex;
     justify-content: space-around;
@@ -149,8 +170,8 @@ nav a:first-child {
 
 
 .friends img {
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: auto;
     border-radius: 5px;
 }
 .friends img:hover {
@@ -158,12 +179,13 @@ nav a:first-child {
 }
 
 .friends p {
-    font-family: 'Old Standard TT', serif;
-    font-size: 16px;
+    font-family: 'Metal Gothic Demo', sans-serif;
+    font-size: 22px;
     max-width: 600px;
     text-align: center;
     text-decoration: #DDA8F6;
 }
+
 footer {
     background-color: #222;
     color: white;
