@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    box-sizing: border-box; 
 }
 body {
     background-color: #000;
@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-    background-color: #DDA8F6; /* Pink background */
+    background-color: #DDA8F6;
     padding: 10px 0;
     text-align: left;
 }
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:first-child {
-    margin-right: 72%; /* Larger space for "AYA" */
+    margin-right: 72%;
     padding-left: 80px;
     font-weight: 100;
 }
@@ -112,7 +112,7 @@ h5 {
     border-radius: 5px;
 }
 .artist img:hover {
-    transform: scale(1.05); /* Scales the image to 105% of its original size */
+    transform: scale(1.05); 
 }
 
 p {
@@ -132,12 +132,12 @@ footer {
     color: white;
     padding: 30px 0;
     font-family: 'Old Standard TT', serif;
-    text-align: center; /* Center content inside footer */
+    text-align: center;
 }
 
 .social-links a {
     text-transform: uppercase;
-    color: #DDA8F6; /* Soft pink for aesthetic touch */
+    color: #DDA8F6;
     text-decoration: none;
     font-size: 20px;
     transition: color 0.3s ease;
