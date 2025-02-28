@@ -68,12 +68,16 @@ h1 {
     margin: 0 25px;
     color: #DDA8F6;
 }
+
 h2 {
-    font-family: 'Starstruck', sans-serif;
-    font-size: 64px;
-    margin-top: 50px;
+    font-family: 'Metal Gothic Demo', sans-serif;
     font-weight: 100;
+    font-size: 50px;
     color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    padding-bottom: 65px;
+    padding-top: 20px;
 }
 
 h4, h5 {
@@ -115,6 +119,27 @@ h5 {
     transform: scale(1.05); 
 }
 
+.visual-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap:150px;
+}
+
+.visual {
+    text-align: center;
+}
+
+.visual img {
+    width: 600px;
+    height: 800px;
+    border: 5px solid pink; 
+    border-radius: 5px;
+}
+.visual:hover {
+    transform: scale(1.05); 
+}
+
 p {
     font-family: 'Old Standard TT', serif;
     font-size: 16px;
@@ -127,6 +152,16 @@ p {
     text-decoration: #DDA8F6;
 }
 
+.mix {
+    align-items: center;
+    font-size: 14px !important;
+    font-family: 'Old Standard TT', serif;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    color: #DDA8F6;
+    margin: 0 20px;
+}
 
 footer {
     background-color: #222;
