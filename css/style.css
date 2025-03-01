@@ -46,7 +46,7 @@ body::before {
     top: 0;
     right: 0;
     width: 55%;
-    height: 55%;
+    height: 45%;
     background: #DDA8F6;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -137,6 +137,7 @@ nav a:first-child {
     text-align: left;
 }
 .image {
+
     flex: 0 0 45%;
     display: flex;
     justify-content: center;
@@ -148,6 +149,7 @@ nav a:first-child {
     height: auto;
     border-radius: 50%;
     padding-right: 50px;
+    padding-bottom: 60px;
 }
 .image img:hover {
     transform: scale(1.05); 
@@ -184,6 +186,14 @@ nav a:first-child {
     max-width: 600px;
     text-align: center;
     text-decoration: #DDA8F6;
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+}
+.film img {
+    width: 100%;
 }
 
 footer {
